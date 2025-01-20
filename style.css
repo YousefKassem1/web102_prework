@@ -140,4 +140,10 @@ body, html {
     border-radius: 7px;
     background-color: #FFFFFF;
 }
+.button-game:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(165, 255, 252);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
 
