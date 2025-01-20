@@ -105,7 +105,6 @@ function filterFundedOnly() {
 
     // use filter() to get a list of games that have met or exceeded their goal
     const myGames = GAMES_JSON.filter(game => game.pledged >= game.goal);
-    console.log(myGames);
 
     // use the function we previously created to add unfunded games to the DOM
     addGamesToPage(myGames);
@@ -144,12 +143,12 @@ const descriptionContainer = document.getElementById("description-container");
 const unfundedGames = GAMES_JSON.filter(game => game.pledged < game.goal).length;
 
 // create a string that explains the number of unfunded games using the ternary operator
-const unfundedString = unfundedGames === 0 ? "all" : unfundedGames;
+const unfundedString = ' Currently, '+ (unfundedGames == 1 ? `${unfundedGames} game remains unfunded.` : `${unfundedGames} games remain unfunded.`);
 
 // create a new DOM element containing the template string and append it to the description container
 const description = document.createElement("p");
-description.innerHTML = `We currently have ${GAMES_JSON.length} games on our site.
-${unfundedString} of them are still looking for backers.`;
+description.innerHTML = `A total of  ${raisedCard.innerText} has been raised for ${(gamesCard.innerText)} games.` +
+`${unfundedString} We need your help to fund these amazing games!`; 
 descriptionContainer.appendChild(description);
 
 /************************************************************************************
