@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTI0cWxzdGF6OHl0dHJxMGo2cXpwdWN2bnVmazBqNzE0djhrY2NnbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Eps4HAAF9bYcirl11A/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTI0cWxzdGF6OHl0dHJxMGo2cXpwdWN2bnVmazBqNzE0djhrY2NnbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Eps4HAAF9bYcirl11A/giphy.gif' title='Video Walkthrough' width='100px' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Macs built in screen recording then converting on ezgif
