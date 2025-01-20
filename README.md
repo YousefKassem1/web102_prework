@@ -28,6 +28,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTI0cWxzdGF6OHl0dHJxMGo2cXpwdWN2bnVmazBqNzE0djhrY2NnbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Eps4HAAF9bYcirl11A/giphy.gif' title='Video Walkthrough' width='100px' alt='Video Walkthrough' />
+If the gif doesn't show use this link: https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTI0cWxzdGF6OHl0dHJxMGo2cXpwdWN2bnVmazBqNzE0djhrY2NnbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Eps4HAAF9bYcirl11A/giphy.gif! [Screen Recording 2025-01-20 at 3 30 10 AM](https://github.com/user-attachments/assets/b903dea8-13b4-4995-ae22-1f1a43a1573f)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Macs built in screen recording then converting on ezgif
