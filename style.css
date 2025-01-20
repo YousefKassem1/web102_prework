@@ -1,23 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
     font-family: 'Cabin';
-    background-color: #758190;
+    background: linear-gradient(to bottom right, #c9dff1, #5abee6);
+    box-sizing: border-box;
 }
 
 #tentacles {
     width: 50px;
+    align-content: center;
 }
 
-.header {
-    display: flex;
-    background-color: lightblue;
-    padding: 1%;
-    align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+  
+/* Style the navbar */
+#navbar {
+    background-color: rgb(44, 164, 228);
+    padding: 0px;
+    position: sticky;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
 }
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: auto;
+
+}
+#navbar a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: auto;
+}
+#navbar a:hover {
+    background-color: lightblue;
+    border-radius: auto;
+}
+.header-text {
+    color: white;
+} 
 
 .stats-container {
     display: flex;
@@ -30,12 +62,38 @@ body {
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #bcf1ff;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+}
+
+#first-game {
+    background-color: #fde9a9;
+}
+#first-game:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(255, 195, 32);
+}
+#second-game {
+    background-color: #d0e1eb;
+}
+#second-game:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(213, 249, 255);
+}
+#welcome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#description-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -65,17 +123,21 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 40px rgb(165, 255, 252);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
 
 #button-container {
     text-align: center;
 }
 
-button {
+.button-game {
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    background-color: #FFFFFF;
 }
+
